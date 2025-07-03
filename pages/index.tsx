@@ -9,7 +9,7 @@ const App = () => {
   const [endpoints, setEndpoints] = useState<Endpoint[]>([
     {
       name: "customServer",
-      url: "http://18.175.171.177:4000/heavy-process",
+      url: "https://scalabilitytest.catbytes.io/heavy-process",
     },
     {
       name: "vercel",
